@@ -24,7 +24,7 @@ put all these 3 files on the same folder . open the file explorer and go to that
 Then in the terminal window that opens, type <h4>yt-dlp "URL"</h4>replacing URL with the link u want to download.
 <br> <br>
 for downloading a membership video you need to have the membership of that channel /access the video . <br>
-download the <h4>get cookies.txt locally</h4> chrome extention . now login in to chrome and youtube with membership email account . open youtube and go to that membership channel , now in click on the extention icon and click on the get cookies.txt locally - all cookies . now put the downloaded cookies.txt folder in the same folder as yt-dlp . <br>
+download the <h4>get cookies.txt locally</h4> chrome extention . now login in to chrome and youtube with membership email account . open youtube and go to that membership channel , now in click on the extention icon and click on the get cookies.txt locally - export all cookies . now put the downloaded cookies.txt folder in the same folder as yt-dlp . <br>
 open the cmd . and type > yt-dlp --cookies cookies.txt "URL" <br>
 for 720 quality vedio at max you can do > yt-dlp --cookies cookies.txt -f "bestvideo[height<=720]+bestaudio/best[height<=720]" "URL". 
 <br>
